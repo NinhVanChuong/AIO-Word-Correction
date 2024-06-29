@@ -11,6 +11,7 @@
 -   **Yêu cầu hệ thống:**
     -   Python >= 3.7
     -   Streamlit
+
   
 -   **Hướng dẫn cài đặt:**
     1.  Clone repository
@@ -33,6 +34,7 @@
 -   **Hướng dẫn sử dụng:**
     1.  Khởi chạy ứng dụng bằng lệnh:
         
+
         Copy code
         
         `streamlit run main.py` 
