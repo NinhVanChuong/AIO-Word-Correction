@@ -49,11 +49,6 @@ def levenshtein_distance(token1, token2):
     return distances[len(token1)][len(token2)]
 
 def main():
-    vocabs = load_vocab(file_path='./data/vocab.txt')
-
-import streamlit as st
-
-def main():
     vocabs = load_vocab ( file_path ='./data/vocab.txt')
     st.title("Word Correction use Levenshtein Distance")
     word = st.text_input('Word:')
